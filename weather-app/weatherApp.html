@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weatherAPP.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+    <div class="update">
+        <div class="marqueez">
+            <marquee behavior="scroll" direction="left">
+                <div class="wind"> Wind speed: 6.2 km/hr</div>
+            </marquee>
+        </div>
+       
+        <div class="getTimeAndDate">
+            <p class="TimeZones">
+                <span class="time">05:24</span> 
+            </p>
+
+            <p class="TimeZones">
+                <span class="Date">friday </span>
+            </p>
+        </div>
+    </div>
+    <h1>weather app</h1>
+    <div class="weatherContainer">
+        <div class="location">
+            <input type="text" name="" id="" class="inputSec" placeholder="enter city to check weather">
+            <button class="btn-success">check</button>
+        </div>
+        <div class="weather Loading">
+            <h1 class="city"></h1>
+            <div class="tempChange">
+                <span class="iconz">
+                    <!-- <i class="fa fa-cloud-sun fa-10x"></i> -->
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                </span>
+    
+                <h2>
+                    <span class="temp">
+                        28
+                    </span>
+                    &deg;C
+                </h2>
+            </div>
+            <div class="description">
+                <h3>sunny</h3>
+    
+               
+            </div>
+            <div class="humidity">
+                Humidity: 60%
+            </div>
+            <div class="wind windColor"> Wind speed: 6.2 km/hr</div>
+        </div>
+        </div>
+        
+    <script src="weatherApp.js"></script>
+</body>
+</html>
